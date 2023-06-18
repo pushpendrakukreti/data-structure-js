@@ -1,3 +1,10 @@
+// Valid Anagram
+/* An anagram is a word or phrase formed by rearranging the letters of
+a different word or phrase, using all the original letters exactly once */
+
+// Input: (input_1 = "anagram"), (input_2 = "nagaram"); ---->>>>  Output: true;
+// Input: (input_1 = "rat"), (input_2 = "car"); ---->>>>  Output: false;
+
 const isAnagram = (input_1, input_2) => {
     input_1 = input_1.split("").sort().join("");
     input_2 = input_2.split("").sort().join("");
